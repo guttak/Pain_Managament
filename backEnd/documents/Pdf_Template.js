@@ -1,14 +1,49 @@
-module.exports = ({ name, firstName, lastName,
-   Hid,contact,Booking,address,date,
-   postcode,email, Yob, check, Booking2, Gender,comments,pain_start ,describe_pain,
-   often_pain,Timeofpainbest,Timeofpainworst,increasepain,decreasepain,no_pain,relievepain,
-   Trouble_sleep,Medication_Sleep,Awake_pain,comments4,check_1,Scans,BloodTests,NerveTests,
- Medication_M1,Medication_D1,Medication_F1,
- Medication_M2,Medication_D2,Medication_F2,
- Medication_M3,Medication_D3,Medication_F3,
-   Reasonfortaking}) => {
-    const today = new Date();
-return `
+module.exports = ({
+  name,
+  firstName,
+  lastName,
+  Hid,
+  contact,
+  Booking,
+  address,
+  date,
+  postcode,
+  email,
+  Yob,
+  check,
+  Booking2,
+  Gender,
+  comments,
+  pain_start,
+  describe_pain,
+  often_pain,
+  Timeofpainbest,
+  Timeofpainworst,
+  increasepain,
+  decreasepain,
+  no_pain,
+  relievepain,
+  Trouble_sleep,
+  Medication_Sleep,
+  Awake_pain,
+  comments4,
+  check_1,
+  Scans,
+  BloodTests,
+  NerveTests,
+  Medication_M1,
+  Medication_D1,
+  Medication_F1,
+  Medication_M2,
+  Medication_D2,
+  Medication_F2,
+  Medication_M3,
+  Medication_D3,
+  Medication_F3,
+  Reasonfortaking,
+}) => {
+  const today = new Date();
+  return `
     <!doctype html>
     <html>
        <head>
@@ -103,7 +138,7 @@ return `
                          <td class ="container"
 
                          <h2>Chronic Pain Clinic Survey</h2>
-                              <p>Please complete the survey below to help us collect the required information before your chronic pain clinc appointment</p>
+                              <p>Please complete  survey below to help us collect the required information before your chronic pain clinc appointment</p>
                                  <h4>Thank you!</h4>
 
 
@@ -111,7 +146,9 @@ return `
 
                            <td>
                           <td>
-                               Date:${`${today.getDate()}.${today.getMonth() + 1}.${today.getFullYear()}.`}
+                               Date:${`${today.getDate()}.${
+                                 today.getMonth() + 1
+                               }.${today.getFullYear()}.`}
                             </td>
                          </tr>
                       </table>
