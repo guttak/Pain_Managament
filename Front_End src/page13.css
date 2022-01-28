@@ -1,0 +1,14 @@
+.fieldname13{
+  display:flex;
+  font-weight: Bold;
+
+  justify-content:space-between;
+  align-items: center;
+  color: #082350;
+  padding-left: 100px;
+  border: solid;
+  background-color: #fdfffc;
+  /* border-bottom: 20px; */
+  border-width: 0.2px;
+
+}

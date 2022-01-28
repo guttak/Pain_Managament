@@ -1,0 +1,230 @@
+/* .PMT {
+  margin: 0px;
+  font-family: OpenSans;
+  padding: 20px;
+  font-size: 25px;
+  color: black;
+  border-radius: 22px;
+    background-color: #fdfffc;
+
+} */
+.fieldname {
+  display:flex;
+  font-size: 25px;
+
+  justify-content:space-between;
+  align-items: center;
+  color: #082350;
+  padding-left: 150px;
+  border:;
+  background-color: #fdfffc;
+  /* border-bottom: 20px; */
+  border-width: 0.2px;
+}
+.fieldname:hover{
+  background-color: #e7ecef;
+}
+input::placeholder{
+  font-style:  italic;
+}
+
+
+
+
+
+
+/* .DOB {
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  border: 35px;
+  /* background-color: lightgray; */
+  /*line-height: 10px;
+} */
+.mandatory{
+  color:red;
+}
+
+.fieldlabel {
+  padding-left:0px;
+  text-align: left;
+}
+.fieldradio{
+  padding-right: 150px;
+}
+.radio1{
+
+}
+.fieldinput {
+  float: left;
+  background-color: "";
+  width: 66.5%;
+  padding: 10px;
+  margin-top: 0px;
+  margin: 0px;
+  padding-right: 150px;
+}
+
+/* .fieldinput input[type="text"]  {
+  margin-top: 0px;
+  justify-content: flex-start;
+  border-color: "gray";
+  padding-left: 50px;
+  border: 1px solid;
+  border-radius: 9px;
+  resize: vertical;
+  float: left;
+
+
+} */
+.fieldinput input[type="email"]  {
+  margin-top: 0px;
+    justify-content: "flex-start";
+  border-color: "gray";
+  padding-right: 35px;
+  border: 1px solid;
+  border-radius: 9px;
+  resize: vertical;
+  float: right;
+
+
+}
+.note{
+
+    font-weight: bold;
+    float: right;
+
+    color: #000066;
+    font-size: 8pt;
+    font-family: Verdana, Arial;
+    width: 50%;
+
+
+}
+.fieldinput input[type="date"] {
+
+    justify-content: "flex-start";
+  border-color: "gray";
+  padding-left: 85px;
+  border: 1px solid;
+  border-radius: 9px;
+  resize: vertical;
+  float: right;
+   width:35%;
+  margin-top: 0px;
+}
+label.radio1 {
+    margin: 15px 20px 15px 0;
+}
+input#Booking {
+
+    width: 25px;
+    height: 17px;
+    border-radius: 50%;
+    border: 5px solid #095484;
+}
+ /* input[type="radio1"]  {
+  justify-content: "flex-end";
+border-color: "gray";
+padding-left: 65px;
+border: 1px solid;
+border-radius: 9px;
+resize: vertical;
+float: right;
+ width:35%;
+margin-top: 0px;
+
+} */
+
+
+.fieldinput input[type="text"]{
+  display: flex;
+  margin-top: 0px;
+  padding-left: 35px;
+   border-radius: 9px;
+  float: right;
+}
+/* label.radio:before, label.check:before {
+     content: "";
+     position: absolute;
+     float:right;
+     }
+     input#Booking {
+    float: right;
+    padding-right: 52px;
+      justify-content: "flex-end";
+}
+label.radio:after {
+     left: 5px;
+     border: 3px solid #095484;
+     }
+
+span {
+    padding: 7px;
+}
+/* .radio1:hover input ~ .checkmark {
+  background-color: blue;
+} */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+
+
+/* input[type="email"] {
+
+    margin-top: 8px;
+
+    border-color:"gray";
+    padding: 4px;
+    border: 2px solid ;
+    border: 20px ;
+    resize: vertical;
+    float: right;
+    width: 25%;
+
+  } */
+
+.textarea {
+  width: 550px;
+  margin-right: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  height: 112px;
+}
+textarea#comments {
+  width: 550px;
+}
+.navbuttons{
+  text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    display: flex;
+}
+.Back{
+  margin-right:25px;
+}
+
+
+
+.Submit {
+  float: ;
+  width: 25%;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  max-width: 200px;
+  border-color: "black";
+  background-color: "#e8edee";
+  border-radius: 4px;
+  margin-left: 500px;
+}

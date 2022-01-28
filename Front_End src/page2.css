@@ -1,0 +1,265 @@
+
+.checkinput{
+  flex-wrap: wrap;
+  display:flex;
+  font-weight: Bold;
+
+  justify-content:flex-start;
+  align-items: center;
+  color: #082350;
+  padding-left: 150px;
+  border: solid;
+  background-color: #e8edee;
+  /* border-bottom: 20px; */
+  border-width: 0.2px;
+}
+ span {
+    padding: 10px;
+}
+label.check-item {
+    padding: 10px;
+}
+
+
+.checkbox-list{
+  flex-wrap: wrap;
+  padding: 30px 50px 50px 50px;
+    background-color:#e8edee;;
+  width: 100%;
+  display: contents;
+  font-size: 22px;
+ grid-row-gap: 10px;
+ border: 5px solid 1px;
+justify-content: flex-start;
+}
+.check-item {
+
+display: ;
+ grid-template-columns: auto auto auto;
+ gap: 50px;
+ padding: 10px;
+}
+
+
+
+
+.container1 h2 p {
+  float:left;
+  font-size: Bold;
+}
+.checklabel {
+  display: flex;
+  font-weight: Bold;
+
+  justify-content:space-between;
+  align-items: ;
+  color: #082350;
+  padding-left: 15px;
+  border: solid;
+  background-color: #e8edee;
+  /* border-bottom: 20px; */
+  border-width: 0.2px;
+}
+
+/* td {
+    margin: 0px;
+    width: 28%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    vertical-align: unset;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 15px;
+    color: #05199f42;
+    font-weight: bold;
+    word-break: break-all;
+} */
+
+
+.td {
+    padding: 10px;
+}
+
+.fieldinput input[type=date]  {
+
+ margin-top: 8px;
+ border-color:"gray";
+ padding: 10px;
+ border: 1px solid ;
+ border-radius: 8px ;
+ resize: vertical;
+ float: right;
+ width: 60%;
+ margin-top: 0px;
+}
+/* .checkinput{
+  float: left;
+  padding-left: 25px;
+} */
+.field1 {
+
+  display: flex;
+  font-weight: Bold;
+  font-size: solid;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin:  10px;
+  border: 35px;
+  background-color: lightgray;
+}
+.field2 {
+
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin:   10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.filedinput2{
+
+  display: flex-row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.checkButtons {
+
+  width: 100%;
+  padding: 35px;
+  display: grid;
+  border-radius: 6px;
+  background: #fff;
+  padding: 20px;
+  margin:  10px
+}
+.checkbox-list{
+  /* float: left;
+  background-color: "darkgray";
+  width: 66.5%;
+  padding: 10px;
+  margin-top: 0px;
+  margin: 0px;
+  padding-right: 150px; */
+}
+label.check-label {
+
+    float: right;
+}
+
+input#Booking2 {
+    width: 25px;
+    height: 17px;
+    border-radius: 50%;
+    border: 5px solid #095484;
+}
+
+input#Gender {
+    width: 25px;
+    height: 17px;
+    border-radius: 50%;
+    border: 5px solid #095484;
+}
+.field3 {
+
+   padding: 10px;
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+
+  margin: 10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.fieldinput3{
+  float: right;
+  justify-content: space-between;
+  padding-left: 305px;
+}
+.field4 {
+
+   padding: 15px;
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  justify-content: space-around;
+  box-sizing: border-box;
+
+  margin: 10px;
+  border: 25px;
+  background-color: lightgray;
+}
+.fieldinput4{
+  float: right;
+  justify-content: space-between;
+  padding-left:450px;
+}
+.pain_start {
+
+  display:flex;
+  font-weight: bold;
+  font-size: solid;
+  text-align: left;
+
+  justify-content: space-around;
+
+  box-sizing: border-box;
+
+  margin:   10px;
+  border: 25px;
+  background-color: lightgray;
+}
+/* .input[type="textarea"]{
+
+   width:225px;
+  height:100px;
+  cols: 50;
+  rows: 50;
+  marginRight:10px;
+  paddingRight:15px;
+   paddingLeft:15px;
+} */
+
+button, select {
+    text-transform: none;
+    background: #DEB887;
+    border-radius: 10px;
+     padding: 10px 20px;
+     background-color: #e8edee;
+}
+button
+.textarea {
+    float: right;
+    width: 200px;
+
+    height: 112px;
+}
+.mandtory{
+
+    color: #ee0000;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Open Sans",arial;
+    padding-top: 0px;
+}
+label.radio1 {
+    margin: 15px 20px 15px 5px;
+}
+input#Booking {
+
+    width: 25px;
+    height: 17px;
+    border-radius: 50%;
+    border: 5px solid #095484;
+}
+
+textarea#comments {
+    margin-top: 20px;
+}

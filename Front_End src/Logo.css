@@ -1,0 +1,32 @@
+
+.Navbar .img {
+  background-color:white;
+  color:#082350;
+  font-size: bold;
+    box-shadow: 20px 20PX 20px 20px #e8edee;
+}
+
+
+
+
+
+
+.Logo {
+background-color: inherit;
+text-align: left;
+padding: 35px;
+
+
+}
+.Heading {
+  margin-top: 30px;
+     text-align:left;
+     word-spacing: .5px;
+     padding-bottom: 10px;
+
+  font-size: 22px;
+
+}
+.p {
+  font-size: 25px;
+}

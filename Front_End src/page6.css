@@ -1,0 +1,40 @@
+.PMT {
+ margin:0px;
+ font-family: Calibri;
+ padding: 35px 35px 35px 35px;
+ font-size: 25px;
+ color:black;
+ text-align:;
+ border-radius: 15px;
+}
+.fieldname {
+  display:flex;
+  font-style:25px;
+
+  justify-content:space-between;
+  align-items: center;
+  color: #0b090a;
+  padding-left: 150px;
+  border-bottom:  5px solid;
+  border-color:#ced4da;
+  background-color: #fdfffc;
+  /* border-bottom: 20px; */
+  border-width: 0.2px;
+}
+
+
+h3{
+
+     text-align: center;
+      color: #082350;
+     background-color: #deb8876e;
+ }
+h4, h6{
+
+     text-align:left;
+      color: #082350;
+     background-color: #deb8876e;
+ }
+h7{
+  color: #082350;
+}

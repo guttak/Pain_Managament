@@ -1,0 +1,35 @@
+.CPMT {
+  margin: 10px;
+  font-family: OpenSans;
+  padding: 20px;
+  font-size: 25px;
+  color: black;
+  border-radius: 15px;
+    background-color: skyblue;
+
+}
+
+.checkinput{
+  flex-wrap: wrap;
+}
+
+
+
+.checkbox-list{
+  flex-wrap: wrap;
+  padding: 30px 50px 50px 50px;
+    background-color: white;
+  width: 70%;
+  display: flex;
+  font-size: 22px;
+ grid-row-gap: 10px;
+ border: 5px solid 1px;
+
+}
+.check-item {
+
+display: ;
+ grid-template-columns: auto auto auto;
+ gap: 50px;
+ padding: 10px;
+}
